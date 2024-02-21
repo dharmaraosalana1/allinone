@@ -1,0 +1,55 @@
+After Component render,useeffect is being  called
+
+function TestUseEffect()
+{
+Const  [counter,setCounter] =usestate(0);
+useEffect(
+()=>console.log(‘useEffect’)
+,counter)
+Return(
+<button onClick={()=>setCounter(counter+1) }>UpdateCounter</button>
+      )
+}
+
+useEffect with empty paranthesis will render only once
+useEffect without any parameters will be called multiple times
+use Effect with dependency variables will be called when dependency variable varies
+
+
+Updating Resume.
+
+Async
+Await in C#
+
+Parallel Execution
+
+ 
+
+
+
+React 
+Angular
+Microservices
+NodejS
+UIPath
+Azure Data Factory
+Azure Data Bricks
+AIOPs
+Scaler
+PMI- ACP
+WEBAPI Security
+System Design
+DS Algo
+
+Configure Method will configure the request pipeline
+Authorization purpose 
+Routing
+App.UseRouting()
+
+ 
+
+ 
+	In geography, we have region and in region we have data centers
+GRZD
+
+LRS – if we create storage account with LRS it is created in local environment
